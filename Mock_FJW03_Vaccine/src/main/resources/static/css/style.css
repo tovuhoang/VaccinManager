@@ -1,0 +1,139 @@
+@charset "ISO-8859-1";
+html,
+        .header{
+            min-height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #009688;
+        }
+        .img-header{
+            height: 90px;
+            width: 90px;
+            padding: 20px;
+        }
+        .search-header{
+            color: white;
+            padding: 20px;
+        }
+        .img-header-nhanvien{
+            position: relative;
+        }
+        #backgroup-menu{
+            width: 100%;
+            height: 150px;
+            position: relative;
+        }
+        #img-nhanvien-menu{
+            width: 60px;
+            height: 60px;
+        }
+        .img-nhanvien-menu{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            right: 10px;
+            color: black; 
+            width: 90%;          
+        }
+        .email-menu{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .link-menu{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .home-menu{
+            padding: 15px;
+        }
+        .home-menu a{
+            text-decoration: none;
+        }
+        .link-vaccine-menu{
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+        a.btn{
+			padding: 0;
+		}
+        
+        /* body css of ScheduleList */
+         /* Style the input to have only an underline */
+        input[type="search"] {
+            border: none;
+            border-bottom: 1px solid black; /* You can adjust the color and style as needed */
+            outline: none; /* Remove the default input focus outline */
+        }
+
+        .header-body{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+        .search-container{
+            display: flex;
+        }
+        .show{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .down{
+            width: 50px;
+            height: min-content;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #d5d5d5;
+            background-color: white;
+            margin-right: 5px; /* Adjust the left margin */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #d5d5d5;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #00a388;
+            text-align: center;
+            color: white;
+        }
+        .first-footer{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 15px;
+            margin-top: 15px;
+            align-items: center;
+        }
+        #btn-create{
+            background-color: #00a388; 
+            color: white;
+            border-color: white;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        #btn-update{
+            border-radius: 5px;
+            padding: 5px;
+            border-color: white;
+            color: white;
+        }
+        .row{
+			width: 100%;
+		}
+		#btn-create a{
+			text-decoration: none;
+			color: white;
+		}
+
+		
